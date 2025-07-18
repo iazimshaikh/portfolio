@@ -18,6 +18,9 @@
 <body>
     <script type="text/javascript" src="script.js"></script>
     <div class="hero">
+        <video src="images/hero-vid.mp4" class="hero-video" autoplay muted>
+
+        </video>
         <nav>
             <h2 class="logo"><span style=color:#ff4d05>Portfolio</span></h2>
             <ul>
@@ -32,6 +35,7 @@
                     </li>
             </ul>
         </nav>
+        <img src="images/azyheroimg.png" alt="" id="azyheroimg">
         <div class="bannertxt">
             <h2> Hii, My name is</h2>
             <h1 id="azynm">
@@ -39,19 +43,21 @@
                 <span id="shaikh"><span>S</span><span>h</span><span>a</span><span>i</span><span>k</span><span>h</span></span>
             </h1><br>
             <h3 class="bannertext">| A Web Dev & System Admin</h3>
-
+            <button type="button" class="btnresumemobile">
+                <a href="Azim_Resume.pdf" id="btnresumetextmobile" download="Azim_Resume.pdf">Resume</a>
+            </button>
         </div>
     </div>
 <!--Ending of header section-->
 
     <!--about section-->
     <section class="about" id="about">
-        <div class="myimgdiv">
+        <!-- <div class="myimgdiv">
         </div>
         <div class="mytext">
-                <h2><span style=color:white;font-size:75px>Myself</span></h2><br>
-                <h3 ><span id="myself_tag" style="color: white;">Web Developer & System Admin</span></h3><br>
-                <p style="color: white;" class="myself">
+                <h2><span style=color:black;font-size:75px>Myself</span></h2><br>
+                <h3 ><span id="myself_tag" style="color: black;">Web Developer & System Admin</span></h3><br>
+                <p class="myself">
                     I am a passionate Web Developer and Cyber Security Enthusiast with a solid foundation in computer applications and cybersecurity.
                     Currently pursuing a Bachelor of Computer Applications, I have hands-on experience in ethical hacking, network security, and secure system administration.
                     With a keen interest in developing innovative solutions, I specialize in identifying vulnerabilities and fortifying systems.
@@ -59,20 +65,102 @@
                     I am dedicated to continuous learning and contributing effectively to technical projects.
 
                 </p>
-                <p style="color: white;" class="myself">
+                <p class="myself">
                     I am currently a final year student doing my bachelors in BCA(Bachelor In Computer Applications).
                      I am also a student in the field of cybersecurity, an certified CyberSecure User(SCSU) and also
                      Hardware Administrator and right now pursuing for RedHat Ethical Hacking(RHCSA). I have worked with wordpress
                      and have great experience with it. Also I am interested in .Net Development and programming langauge like Python.
                 </p>
 
-                <button type="button" class="btn_hireme"><a href="mailto:itsshaikhhere@gmail.com?&subject=Inquiry%20for%20work%20through%20portfolio" style="color: white;">Hire Me</a></button>
+                <button type="button" class="btn_hireme"><a href="mailto:itsshaikhhere@gmail.com?&subject=Inquiry%20for%20work%20through%20portfolio" >Hire Me</a></button>
+        </div> -->
+
+        <div class="about-container">
+            <div class="about-grid">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img src="images/azyprof.png" alt="Profile" class="profile-image" />
+                    </div>
+                    <div class="skills-preview">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">c/c++</span>
+                        <span class="skill-tag">Javascript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL/NoSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">ReactJs</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <div class="header">
+                        <h1 class="name">Myself</h1>
+                        <div class="divider"></div>
+                        <h2 class="title">Web Developer & System Admin</h2>
+                        <p class="description">
+                            I am a passionate Web Developer specialized in MERN stack development and Cyber Security Enthusiast with a solid foundation in computer applications and cybersecurity.
+                            Currently pursuing a Master's of Computer Applications, I have hands-on experience in ethical hacking, network security, and secure system administration. With a keen interest in developing innovative solutions, I specialize in identifying vulnerabilities and fortifying systems.
+                        </p>
+                    </div>
+
+                    <div class="stats-section">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Done</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Tech Stacks</span>
+                        </div>
+                    </div>
+
+                    <div class="highlight-cards">
+                         <div class="highlight-card">
+                            <div class="card-icon">💻</div>
+                            <h3 class="card-title">Full-Stack Developer</h3>
+                            <p class="card-description">Proficient in multiple programming languages with expertise in web development and innovative solution design. Expertise in MERN stack development.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="card-icon">🛡️</div>
+                            <h3 class="card-title">Cybersecurity Expert</h3>
+                            <p class="card-description">Certified in ethical hacking and network security with hands-on experience in identifying vulnerabilities and system fortification.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="card-icon">🎓</div>
+                            <h3 class="card-title">Continuous Learner</h3>
+                            <p class="card-description">MCA student pursuing advanced certifications in cybersecurity and modern development frameworks as well as exploring into the world of Cloud Computing.</p>
+                        </div>
+                    </div>
+
+                    <div class="certifications">
+                        <span class="cert-badge">⚡ MERN STACK</span>
+                        <span class="cert-badge">🐥 KALI LINUX</span>
+                        <span class="cert-badge">🌐 WordPress Expert</span>
+                        <span class="cert-badge">👩‍💻 Red Hat</span>
+                        <span class="cert-badge">🔐 SCSU Certified</span>
+                        <span class="cert-badge">🔍 RHCSA Pursuing</span>
+                    </div>
+
+                    <div class="cta-section">
+                        <button class="hiremebtn"><a href="mailto:itsshaikhhere@gmail.com?&subject=Inquiry%20for%20work%20through%20portfolio" class="hire-button">Hire Me</a>
+                    </button>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
     </section>
-    <!--- End of About Section-->
 
     <!--Skills section starts here-->
-    <section id="skillsection" style="background-color: rgba(255, 255, 255, 0.952);"><!--rgba(4, 0, 8, 0.863)-->
+    <section class="fade-in" id="skillsection" style="background-color: rgba(255, 253, 249, 0.952);"><!--rgba(4, 0, 8, 0.863)-->
         <h1 class="skill">Skills</h1>
 
         <div class="container">
@@ -85,9 +173,9 @@
             </div>
             <div class="box">
                 <h4>Frameworks</h4>
-                <img src="images/app-development.png" alt="">
+                <img src="images/framework.png" alt="">
                 <div class="skilltxt">
-                    <p>.Net Framework (c#) Specialization</p>
+                    <p>Expertise in MERN stack-MongoDB, ExpressJs, ReactJs, NodeJs</p>
                 </div>
             </div>
             <div class="box">
@@ -121,7 +209,7 @@
                         <h4>Graphic Designing</h4>
                         <img src="images/graphic-tablet.png" alt="">
                         <div class="skilltxt">
-                            <p>Have experience of more than 2 years as an instagram content designer in canva.</p>
+                            <p>Experience of more than 2 years as an instagram content designer in canva.</p>
                         </div>
                     </div>
 
@@ -153,7 +241,7 @@
 
                     <div class="box">
                         <h4>Soft Skills</h4>
-                        <img src="images/team.jpg" alt="">
+                        <img src="images/soft-skills.png" alt="">
                         <div class="skilltxt">
                             <p>Effective Communication , Team Work , Collaboration</p>
                         </div>
@@ -169,13 +257,12 @@
         <div class="content">
             <h2>Hobbies</h2>
              <ul class="ul" type=square>
-                 <li for="cyber">Making Peoples Happy</li><progress id="cyber" value="100" max="100"></progress>
-                 <li>Listening Music</li><progress id="cyber" value="80" max="100"></progress>
-                 <li>Programming </li><progress id="cyber" value="70" max="100"></progress>
-                 <li>Hacking</li><progress id="cyber" value="50" max="100"></progress>
+                 <li for="cyber">Programming</li><progress id="cyber" value="100" max="100"></progress>
+                 <li>Ethical Hacking</li><progress id="cyber" value="80" max="100"></progress>
+                 <li>Listening Music</li><progress id="cyber" value="70" max="100"></progress>
+                 <li>Making Peoples Happy</li><progress id="cyber" value="50" max="100"></progress>
                  <li>Travelling</li><progress id="cyber" value="30" max="100"></progress>
              </ul>
-
         </div>
         <div class="contentimg">
             <img src="images/content.png" alt="" class="serviceimg" >
@@ -189,7 +276,7 @@
     <h1 class="section-title">My Creative Projects</h1>
     <div class="project-cards">
         <div class="card">
-            <img src="images/encyption.png" alt="Encryption Project">
+            <img src="images/Encry13_projects.png" alt="Encryption Project">
             <div class="card-content">
                 <span class="tag">Encry13 - Python Password Encrypter and Saver</span>
                 <p class="ppro">This Python script allows you to securely store and retrieve passwords for your social media accounts using a custom encryption method based on the ROT13 technique combined with random special characters.
@@ -200,7 +287,7 @@
         </div>
 
         <div class="card">
-            <img src="images/smartphone (1).png" alt="Developer Project">
+            <img src="images/quiz_projects.png" alt="Developer Project">
             <div class="card-content">
                 <span class="tag">Quiz Application (.Net Framework-C#)</span>
                 <p class="ppro"> The project made for faculties/Students for taking & giving Quizzes. This Desktop Quiz Application allows faculties to Create Quiz and make it Live when needed
@@ -211,7 +298,7 @@
         </div>
 
         <div class="card">
-            <img src="images/multimedia.png" alt="Files Project">
+            <img src="images/fypy_projects.png" alt="Files Project">
             <div class="card-content">
                 <span class="tag">Files Renamer</span>
                 <p class="ppro">This Python script(Web App) named as FyPy allows you to rename files in the sequence. It helps you to normalize your task with renaming file by using an alogrithm
@@ -259,14 +346,27 @@
                     <p class="feedpara">We love to work with Azim and it is a great <br>
                                 experience to see his work with progressive output!</p>
                     <h2>| Hasnain Malek</h2>
+                    <h4>~ System Admin</h4>
                 </div>
             </div>
+            <div class="feedback-card">
+                <img src="images/nawab.jpg" class="fimg imgnawab" alt="Encryption Project">
+                <div class="feedbackcard-content">
+                    <p class="feedpara">Great to see azim as growing enthusiast of tech.
+                        Having great knowledge of wide technologies.
+                    </p>
+                    <h2>| Nawab Shaikh</h2>
+                    <h4>~ SDE @IMS</h4>
+                </div>
+            </div>
+
             <div class="feedback-card">
                 <img src="images/meet.png" class="fimg imgmeet" alt="Encryption Project">
                 <div class="feedbackcard-content">
                     <p class="feedpara">Azim's work is Creative and well-done. <br>
                          It's great how he makes his projects both useful and good-looking.</p>
-                    <h2>| Meet Thakkar</h2>
+                    <h2>| Meet Thakkar </h2>
+                    <h4>~ Web Developer</h4>
                 </div>
             </div>
             <div class="feedback-card">
@@ -274,21 +374,13 @@
                 <div class="feedbackcard-content">
                     <p class="feedpara">Azim is good able to adapt the technologies with the <br>
                         help of teams knowledge.
+                    </p>
+                    <h2>| Momin Ahmed </h2>
+                    <h4>~ Embedded Developer</h4>
+                </div>
+            </div>
 
-                    </p>
-                    <h2>| Momin Ahmed</h2>
-                </div>
-            </div>
             <!-- More cards -->
-            <div class="feedback-card">
-                <img src="images/nawab.jpg" class="fimg imgnawab" alt="Encryption Project">
-                <div class="feedbackcard-content">
-                    <p class="feedpara">Great to see azim as growing enthusiast of tech.
-                        Having great knowledge of wide technologies.
-                    </p>
-                    <h2>| Nawab Shaikh (SE @IMS)</h2>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -317,6 +409,20 @@
     <div class="mobile-feedback-wrapper">
         <div class="mobile-feedback-card">
             <div class="mobile-feedback-header">
+                <img src="images/nawab.jpg" alt="Speaker Image" class="mobile-speaker-img">
+                <div class="mobile-speaker-info">
+                    <h3 class="mobile-speaker-name">Nawab Shaikh</h3>
+                    <p class="mobile-speaker-title">Software Engineer @IMS</p>
+                </div>
+            </div>
+            <p class="mobile-feedback-text">
+                Great to see azim as growing enthusiast of tech.
+                Having great knowledge of wide technologies.
+            </p>
+
+        </div>
+        <div class="mobile-feedback-card">
+            <div class="mobile-feedback-header">
                 <img src="images/hasnen.jpg" alt="Speaker Image" class="mobile-speaker-img has">
                 <div class="mobile-speaker-info">
                     <h3 class="mobile-speaker-name">Hasnain Malek</h3>
@@ -330,23 +436,10 @@
         </div>
         <div class="mobile-feedback-card">
             <div class="mobile-feedback-header">
-                <img src="images/nawab.jpg" alt="Speaker Image" class="mobile-speaker-img">
-                <div class="mobile-speaker-info">
-                    <h3 class="mobile-speaker-name">Nawab Shaikh</h3>
-                    <p class="mobile-speaker-title">Software Engineer @IMS</p>
-                </div>
-            </div>
-            <p class="mobile-feedback-text">
-                Great to see azim as growing enthusiast of tech.
-                Having great knowledge of wide technologies.
-            </p>
-        </div>
-        <div class="mobile-feedback-card">
-            <div class="mobile-feedback-header">
                 <img src="images/meet.png" alt="Speaker Image" class="mobile-speaker-img">
                 <div class="mobile-speaker-info">
                     <h3 class="mobile-speaker-name">Meet Thakkar</h3>
-                    <p class="mobile-speaker-title">Software Engineering Student</p>
+                    <p class="mobile-speaker-title">Web Dev</p>
                 </div>
             </div>
             <p class="mobile-feedback-text">
